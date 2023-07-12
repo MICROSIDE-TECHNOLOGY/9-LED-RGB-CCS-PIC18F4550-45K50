@@ -1,0 +1,5 @@
+Compiling C:\Users\Martin Hdez\Desktop\18F45K50\Práctica 9 – LED RGB\LED RGB on 01-dic.-20 at 11:31
+>>> Warning 203 "C:\Users\Martin Hdez\Desktop\18F45K50\Práctica 9 – LED RGB\LED RGB.c" Line 56(1,1): Condition always TRUE
+      Memory usage:   ROM=1%      RAM=0% - 0%
+      0 Errors,  1 Warnings.
+Build Successful.

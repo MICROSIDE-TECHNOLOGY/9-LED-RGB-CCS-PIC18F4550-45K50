@@ -1,0 +1,66 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004-005 duty
+006     @delay_ms1.P1
+F78.6   C2OUT
+F79.6   C1OUT
+F90     CCP_2
+F90     CCP_2_LOW
+F91     CCP_2_HIGH
+FBE     CCP_1_LOW
+FBE     CCP_1
+FBF     CCP_1_HIGH
+FE1-FE2 @READ_PACKED_MEMORY.P1
+FE1-FE2 @WRITE_PACKED_MEMORY.P2
+FE9-FEA @READ_PROGRAM_MEMORY.P1
+FE9-FEA @WRITE_PROGRAM_MEMORY.P2
+FE9-FEA @READ_PACKED_MEMORY.P3
+FE9-FEA @WRITE_PACKED_MEMORY.P4
+FF6-FF8 @READ_PROGRAM_MEMORY.P1
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+002008  SisInit
+00202C  @delay_ms1
+002054  Set_PWM
+0020DA  MAIN
+0020DA  @cinit1
+0020FC  @cinit2
+
+Project Directory:
+    C:\Users\Martin Hdez\Desktop\18F45K50\Práctica 9 – LED RGB\
+
+Project Files:
+    LED RGB.c                                               [30-nov.-20 14:13  CRC=6B8C3378]
+    D:\Programas\PICC\Devices\18F45K50.h                    [02-oct.-19 09:47  CRC=5092E4C4]
+
+Source signature=0CB1FD00
+Program memory checksum=0000
+Hex file CRC=3156
+
+Units:
+    C:\Users\Martin Hdez\Desktop\18F45K50\Práctica 9 – LED RGB\LED RGB (main)
+
+Compiler Settings:
+    Processor:      PIC18F45K50
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Compile Mode:       CCS5
+
+Output Files:
+    XREF file:   LED RGB.xsym
+    Errors:      LED RGB.err
+    Ext Symbols: LED RGB.esym
+    INHX32:      LED RGB.hex
+    Symbols:     LED RGB.sym
+    List:        LED RGB.lst
+    Debug/COFF:  LED RGB.cof
+    Project:     LED RGB.ccspjt
+    Call Tree:   LED RGB.tre
+    Statistics:  LED RGB.STA
