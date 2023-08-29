@@ -1,8 +1,10 @@
-/* 
- AUTOR: MICROSIDE TECHNOLOGY S.A. DE C.V.
- FECHA: JUNIO 2019
-*/
-
+/************************************************************************************************
+Company:
+Microside Technology Inc.
+Product Revision  :  1
+Device            :  X-TRAINER
+Driver Version    :  1.0
+************************************************************************************************/
 /*
 ---------------------------------------------------------------------------
 Esta práctica consiste en realizar un control PWM
@@ -20,13 +22,6 @@ para el control de un LED RGB
 #define LEDA PIN_B2                             //Pin donde está conectado el LED azul
 
 unsigned int16 Duty=0;                          //Variable para guardar el valor para PWM
-
-void SisInit(void)
-
-{
-   setup_timer_2 (T2_DIV_BY_16, 254, 1);                        //Configura Timer2, periodo ajustado a 342uS
-   setup_ccp1 (CCP_PWM|CCP_SHUTDOWN_AC_L|CCP_SHUTDOWN_BD_L);    //Configura el módulo CCP para uso del PWM
-}
 
 void Set_PWM (void)
 
@@ -53,7 +48,8 @@ void main()
 
 {
 
-   SisInit();
+   setup_timer_2 (T2_DIV_BY_16, 254, 1);                        //Configura Timer2, periodo ajustado a 342uS
+   setup_ccp1 (CCP_PWM|CCP_SHUTDOWN_AC_L|CCP_SHUTDOWN_BD_L);    //Configura el módulo CCP para uso del PWM
 
     while (1)                                                   // Ciclo infinito
 
