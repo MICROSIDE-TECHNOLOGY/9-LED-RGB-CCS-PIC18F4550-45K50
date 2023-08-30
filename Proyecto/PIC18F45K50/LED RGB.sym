@@ -7,8 +7,8 @@
 006     @delay_ms1.P1
 F78.6   C2OUT
 F79.6   C1OUT
-F90     CCP_2
 F90     CCP_2_LOW
+F90     CCP_2
 F91     CCP_2_HIGH
 FBE     CCP_1_LOW
 FBE     CCP_1
@@ -17,32 +17,31 @@ FE1-FE2 @READ_PACKED_MEMORY.P1
 FE1-FE2 @WRITE_PACKED_MEMORY.P2
 FE9-FEA @READ_PROGRAM_MEMORY.P1
 FE9-FEA @WRITE_PROGRAM_MEMORY.P2
-FE9-FEA @READ_PACKED_MEMORY.P3
-FE9-FEA @WRITE_PACKED_MEMORY.P4
-FF6-FF8 @READ_PROGRAM_MEMORY.P1
-FF6-FF8 @WRITE_PROGRAM_MEMORY.P2
+FE9-FEA @WRITE_PACKED_MEMORY.P3
+FE9-FEA @READ_PACKED_MEMORY.P4
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P1
+FF6-FF8 @READ_PROGRAM_MEMORY.P2
 
 ROM Allocation:
-002008  SisInit
-00202C  @delay_ms1
-002054  Set_PWM
-0020DA  MAIN
-0020DA  @cinit1
-0020FC  @cinit2
+002008  @delay_ms1
+002030  Set_PWM
+0020B4  MAIN
+0020B4  @cinit1
+0020D6  @cinit2
 
 Project Directory:
-    C:\Users\Martin Hdez\Desktop\18F45K50\Práctica 9 – LED RGB\
+    C:\Users\victo\OneDrive\Documentos\X-TRAINER-hands-on\CCS\PIC18F\9-LED-RGB-CCS-PIC18F4550-45K50\Proyecto\PIC18F45K50\
 
 Project Files:
-    LED RGB.c                                               [30-nov.-20 14:13  CRC=6B8C3378]
-    D:\Programas\PICC\Devices\18F45K50.h                    [02-oct.-19 09:47  CRC=5092E4C4]
+    LED RGB.c                                               [30-ago.-23 16:12  CRC=34D5F3D0]
+    ..\..\..\..\..\..\..\..\..\..\Program Files (x86)\PICCDEMO\Devices\18F45K50.h [02-may.-23 08:34  CRC=7779E332]
 
-Source signature=0CB1FD00
+Source signature=23C9BA34
 Program memory checksum=0000
-Hex file CRC=3156
+Hex file CRC=B6B4
 
 Units:
-    C:\Users\Martin Hdez\Desktop\18F45K50\Práctica 9 – LED RGB\LED RGB (main)
+    C:\Users\victo\OneDrive\Documentos\X-TRAINER-hands-on\CCS\PIC18F\9-LED-RGB-CCS-PIC18F4550-45K50\Proyecto\PIC18F45K50\LED RGB (main)
 
 Compiler Settings:
     Processor:      PIC18F45K50
@@ -51,7 +50,10 @@ Compiler Settings:
     Opt Level:      9
     Short,Int,Long: UNSIGNED: 1,8,16
     Float,Double:   32,32
-    Compile Mode:       CCS5
+    Compile Mode:   CCS5
+
+Compiler operating in Evaluation Mode
+To obtain a fully enabled compiler visit www.ccsinfo.com/products
 
 Output Files:
     XREF file:   LED RGB.xsym

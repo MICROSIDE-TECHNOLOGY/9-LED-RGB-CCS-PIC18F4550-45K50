@@ -1,7 +1,7 @@
 [PROJECT]
 Target=LED RGB.hex
 Processor_Text=PIC18F45K50
-CCSVersion=5.090
+CCSVersion=5.115d
 Compiler=PCH
 [Target Data]
 FileList=LED RGB.c
@@ -9,20 +9,33 @@ FileList=LED RGB.c
 Type=4
 [mru-list]
 1=LED RGB.c
-[Units]
-Count=1
-1=LED RGB (main)
 
 [defines]
-buildcount=1
+buildcount=3
 
 [Opened Files]
 1=LED RGB.c
-t1=1
+t1=21
 Count=1
 
 [ProjectLog]
-Days=1
+Days=2
 D1=01-12-2020
 D1_L=1
 D1_L1=[41528]Project Closed.
+D2=30-08-2023
+D2_L=4
+D2_L1=[58245]Project Opened.
+D2_L2=[58322]Started Editing.
+D2_L3=[58353]Stopped Editing.
+TotalEdit=1
+TotalDebug=0
+D2_E=1
+D2_D=0
+D2_L4=[58353]Project Closed.
+
+[fileformats]
+forcecoff=0
+[Units]
+Count=1
+1=LED RGB (main)
